@@ -14,9 +14,10 @@
         "0x0004"
       ]
     ],
-    "ldscript": "STM32F103CB_FLASH.ld",
+    "ldscript": "$PROJECT_DIR/buildroot/ldscripts/STM32F103CB_FLASH.ld",
     "mcu": "stm32f103cbt6",
-    "variant": "stm32f1"
+    "variant": "stm32f1",
+    "product_line": "STM32F103xB"
   },
   "debug": {
     "jlink_device": "STM32F103cbt6",
